@@ -6,7 +6,6 @@ const FetchingApi = () => {
   let [loading, setLoading] = useState(true);
   let [dark, setDark] = useState(false);
   let [error, setError] = useState("");
-
   const handleTheme = () => {
     setDark(!dark);
   };
